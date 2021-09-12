@@ -159,7 +159,7 @@ TARGET_OMX_LEGACY_RESCALING := true
 
 # Recovery
 BOARD_HAS_DOWNLOAD_MODE := true
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.recovery
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/recovery.fstab
 
 # Renderscript
 OVERRIDE_RS_DRIVER := libRSDriverArm.so
